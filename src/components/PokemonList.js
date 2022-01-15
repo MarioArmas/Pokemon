@@ -1,9 +1,9 @@
 import React from 'react'
 import Pokemon from './Pokemon'
+import Loading from './Loading'
 import './Pokemon.css'
 
 export default function PokemonList({ pokemon }) {
-  
   return (
     <div className='PokemonList'>
       {pokemon.map(pokemon => {

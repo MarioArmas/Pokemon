@@ -1,13 +1,12 @@
 .Pokemon {
-  display: inline-block;
   padding: 1em;
   margin: .5em;
-  align-items: center;
   background-color: #eee;
   display:flex;
-  align-items:center;
+  align-items: center;
   flex-direction: column;
   justify-content:center;
+  height: 150px;
 }
 
 .Pokemon h2 {
