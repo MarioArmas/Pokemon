@@ -1,0 +1,24 @@
+.Pokemon {
+  display: inline-block;
+  padding: 1em;
+  margin: .5em;
+  align-items: center;
+  background-color: #eee;
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.Pokemon h2 {
+  margin: .5em;
+}
+
+.Pokemon img{
+  margin: auto;
+}
+
+.PokemonList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}

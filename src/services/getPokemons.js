@@ -1,5 +1,5 @@
 
-const URL = "https://pokeapi.co/api/v2/pokemon"
+const URL = "https://pokeapi.co/api/v2/pokemon?limit=151"
 
 export default async function apiRequest() {
 
